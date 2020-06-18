@@ -1,35 +1,36 @@
 {
-    "name": "resumer",
-    "version": "0.0.0",
+    "name": "resumer-through2",
+    "version": "1.0.0",
     "description": "a through stream that starts paused and resumes on the next tick",
     "main": "index.js",
     "dependencies": {
-        "through": "~2.3.4"
+        "through2": "2 || 3"
     },
     "devDependencies": {
-        "tap": "~0.4.0",
-        "tape": "~1.0.2",
-        "concat-stream": "~0.1.1"
+        "concat-stream": "^2.0.0",
+        "tap": "^14.10.7",
+        "tape": "^5.0.1"
     },
     "scripts": {
         "test": "tap test/*.js"
     },
-    "testling" : {
-        "files" : "test/*.js",
-        "browsers" : [
+    "testling": {
+        "files": "test/*.js",
+        "browsers": [
             "ie/6..latest",
             "chrome/20..latest",
             "firefox/10..latest",
             "safari/latest",
             "opera/11.0..latest",
-            "iphone/6", "ipad/6"
+            "iphone/6",
+            "ipad/6"
         ]
     },
     "repository": {
         "type": "git",
-        "url": "git://github.com/substack/resumer.git"
+        "url": "git://github.com/martinheidegger/resumer-through2.git"
     },
-    "homepage": "https://github.com/substack/resumer",
+    "homepage": "https://github.com/martinheidegger/resumer-through2",
     "keywords": [
         "through",
         "stream",

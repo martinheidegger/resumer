@@ -1,11 +1,11 @@
-var through = require('through');
+var through = require('through2');
 var nextTick = typeof setImmediate !== 'undefined'
     ? setImmediate
     : process.nextTick
 ;
 
-module.exports = function (write, end) {
-    var tr = through(write, end);
+module.exports = function (options, write, end) {
+    var tr = through(options, write, end);
     tr.pause();
     var resume = tr.resume;
     var pause = tr.pause;
