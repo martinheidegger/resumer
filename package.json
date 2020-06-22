@@ -4,7 +4,7 @@
     "description": "a through stream that starts paused and resumes on the next tick",
     "main": "index.js",
     "dependencies": {
-        "through2": "2 || 3"
+        "through2": "github:martinheidegger/through2"
     },
     "devDependencies": {
         "concat-stream": "^2.0.0",
