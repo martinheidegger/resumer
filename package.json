@@ -1,6 +1,6 @@
 {
     "name": "resumer-through2",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "a through stream that starts paused and resumes on the next tick",
     "main": "index.js",
     "dependencies": {
