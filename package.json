@@ -4,12 +4,12 @@
     "description": "a through stream that starts paused and resumes on the next tick",
     "main": "index.js",
     "dependencies": {
-        "through2": "github:martinheidegger/through2"
+        "through2": "https://registry.npmjs.org/@leichtgewicht/through2/-/through2-4.0.2.tgz"
     },
     "devDependencies": {
         "concat-stream": "^2.0.0",
-        "tap": "^14.10.7",
-        "tape": "^5.0.1"
+        "tap": "^14.11.0",
+        "tape": "^5.1.1"
     },
     "scripts": {
         "test": "tap test/*.js"
